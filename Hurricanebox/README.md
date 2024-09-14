@@ -7,6 +7,7 @@ Date: 2024-04-30
 ### Summary
 
 The "Hurricane Box" project integrates an ESP32 microcontroller with sensors to monitor environmental conditions indicative of hurricane activity, including temperature and accelerations. This data is processed by the ESP32 and transmitted via WiFi to a node.js server, which facilitates real-time data communication and device control. Users can interact with the Hurricane Box through a web interface that displays sensor data and allows for remote adjustment of an LED's brightness as a means of testing system responsiveness. The web interface is built using HTML, CSS, and JavaScript, ensuring it is user-friendly and accessible from various devices.
+
  
 ### Solution Design
 Thermistor, ADXL343, accelerometer, and LED was used.
